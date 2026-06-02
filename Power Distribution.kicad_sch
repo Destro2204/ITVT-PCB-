@@ -1793,16 +1793,16 @@
 		(uuid "01a2e5c7-b7d7-421b-96b0-515e511fc794")
 	)
 	(junction
-		(at 102.87 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b4d4034-ece0-4082-8a2f-42cdf3ba005a")
-	)
-	(junction
 		(at 144.78 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10beeb5e-1306-4daa-8511-d0e9a71c2bcf")
+	)
+	(junction
+		(at 102.87 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18dcccc2-57e1-4403-b83d-d6922bcfcba0")
 	)
 	(junction
 		(at 102.87 72.39)
@@ -2004,6 +2004,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 68.58) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a51736-9d44-41a3-a2a5-7c37caebe19b")
+	)
+	(wire
+		(pts
 			(xy 144.78 91.44) (xy 143.51 91.44)
 		)
 		(stroke
@@ -2074,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 57.15) (xy 102.87 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307e93d4-9941-404e-983b-d1f587e0c814")
+	)
+	(wire
+		(pts
 			(xy 144.78 96.52) (xy 143.51 96.52)
 		)
 		(stroke
@@ -2134,16 +2154,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 68.58) (xy 102.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e7d4a5a-a65c-4148-a8da-7ba1177105db")
-	)
-	(wire
-		(pts
 			(xy 214.63 78.74) (xy 214.63 88.9)
 		)
 		(stroke
@@ -2184,16 +2194,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 102.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68392744-4d42-46e9-ac95-7c618a7faab0")
-	)
-	(wire
-		(pts
 			(xy 102.87 72.39) (xy 144.78 72.39)
 		)
 		(stroke
@@ -2224,6 +2224,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 72.39) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e19218-5fc4-4e60-b23e-26959753dba1")
+	)
+	(wire
+		(pts
 			(xy 144.78 104.14) (xy 143.51 104.14)
 		)
 		(stroke
@@ -2251,16 +2261,6 @@
 			(type default)
 		)
 		(uuid "93ae23d8-56f0-483e-89e5-ad74d89f45a1")
-	)
-	(wire
-		(pts
-			(xy 102.87 72.39) (xy 102.87 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96da1007-b1b8-4b66-b3dd-79af6c910595")
 	)
 	(wire
 		(pts
@@ -2344,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 102.87 104.14)
+			(xy 102.87 99.06) (xy 102.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2494,16 +2494,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 102.87 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faab3852-8bf4-4f5b-ad4e-355741a2d8d4")
-	)
-	(wire
-		(pts
 			(xy 236.22 91.44) (xy 236.22 95.25)
 		)
 		(stroke
@@ -2531,6 +2521,26 @@
 			(type default)
 		)
 		(uuid "ff183436-4090-4a81-8a7c-4b7fedf81ea8")
+	)
+	(label "12V_RAW"
+		(at 102.87 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "428a5538-cd7e-45c8-bdef-ee2c3513457b")
+	)
+	(label "12V_FUSED_MAIN"
+		(at 102.87 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba1615b4-d85b-4822-bb8f-42deb3036b71")
 	)
 	(symbol
 		(lib_id "231-834_001-000_105-604:231-834_001-000_105-604")
@@ -2564,7 +2574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:231834001000"
+		(property "Footprint" "Footprint:4_pin_Molex"
 			(at 209.55 183.82 0)
 			(hide yes)
 			(show_name no)
@@ -2858,6 +2868,88 @@
 			(project "PCB_Test"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 102.87 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d9270e5-c907-4818-9223-8d13e26c55e9")
+		(property "Reference" "F3"
+			(at 105.41 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fuse 30A"
+			(at 105.41 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+			(at 101.092 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 102.87 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6531c3a5-7898-42c6-b3f4-f0f659533e06")
+		)
+		(pin "2"
+			(uuid "7b4873c8-cdd1-48fc-95ef-e51bb5960958")
+		)
+		(instances
+			(project "PCB_Test"
+				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3277,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 102.87 68.58 0)
+		(at 102.87 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3196,7 +3288,7 @@
 		(fields_autoplaced yes)
 		(uuid "a356fdff-3c97-496f-ae4b-aef2f494e32d")
 		(property "Reference" "#PWR034"
-			(at 102.87 72.39 0)
+			(at 102.87 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3299,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 102.87 63.5 0)
+			(at 102.87 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3217,7 +3309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 68.58 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,7 +3320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 68.58 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,7 +3331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 102.87 68.58 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,88 +3714,6 @@
 			(project "PCB_Test"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 102.87 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2de0413-d8a0-4e0d-9da2-ef40cbb018b0")
-		(property "Reference" "F3"
-			(at 105.41 78.7399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse 15A"
-			(at 105.41 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
-			(at 101.092 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 102.87 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd8d9c95-28e4-46cc-bd4d-a0f857e742f9")
-		)
-		(pin "2"
-			(uuid "61c8c687-6af9-4d15-a38d-1986fae54939")
-		)
-		(instances
-			(project "PCB_Test"
-				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
-					(reference "F3")
 					(unit 1)
 				)
 			)

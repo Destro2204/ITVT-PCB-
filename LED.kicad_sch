@@ -2332,6 +2332,26 @@
 		)
 		(uuid "fc88ecc1-3027-460e-b181-a3d7edf09276")
 	)
+	(label "12V_LED_FUSED"
+		(at 228.6 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6392941-39d7-4243-b77b-1fcd68632761")
+	)
+	(label "12V_LED_FUSED"
+		(at 231.14 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3798c2d-7fc2-40f9-9d94-a1d256dc6467")
+	)
 	(global_label "IO 14"
 		(shape input)
 		(at 35.56 138.43 180)

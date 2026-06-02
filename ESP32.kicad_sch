@@ -3516,6 +3516,46 @@
 		)
 		(uuid "fb84e5b0-197c-4bfc-913b-661cd8cae31e")
 	)
+	(label "12V_FAN_FUSED"
+		(at 120.65 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bf1bfd3-70fc-4d47-8e7d-80258278cb41")
+	)
+	(label "12V_FAN_FUSED"
+		(at 255.27 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69b86f4c-46c6-410c-ba3d-9d632aa40e83")
+	)
+	(label "12V_FAN_FUSED"
+		(at 255.27 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7262dad-489d-4477-b159-ffb623830d28")
+	)
+	(label "12V_FAN_FUSED"
+		(at 120.65 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b505f1fa-b790-4769-a0af-e236cccb8811")
+	)
 	(global_label "GPIO 15"
 		(shape input)
 		(at 109.22 48.26 180)

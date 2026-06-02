@@ -787,7 +787,7 @@
         "uuid": "af4f5558-672d-42f1-bcb2-d73fc89abcc2"
       }
     ],
-    "used_designators": "J22-27",
+    "used_designators": "R27,J11,J22-27,F3,#PWR26,#PWR56,H1-4",
     "variants": []
   },
   "sheets": [
