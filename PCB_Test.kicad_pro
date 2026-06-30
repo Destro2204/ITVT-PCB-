@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 4.0,
+          "height": 8.0,
+          "width": 8.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,20 +52,20 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 4.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.3,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -524,6 +524,80 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6
+      },
+      {
+        "clearance": 0.3,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.5,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.3,
+        "name": "5V-Molex",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.5,
+        "name": "IRLZ44N",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "RASPB PI 5",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "name": "TC4427",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "esp32 IO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -531,13 +605,182 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "3V3",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "5V-Molex",
+        "pattern": "Net-(F4-Pad1)"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 18"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 19"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 21"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 22"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 13"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 14"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "IO 12"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "Net-(U1-IO35)"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "Net-(U1-IO32)"
+      },
+      {
+        "netclass": "esp32 IO",
+        "pattern": "Net-(U1-IO33)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(J2-Pin_4)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(J3-Pin_4)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(J4-Pin_4)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(J6-Pin_4)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(Q1-G)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(Q2-G)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(Q3-G)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q1-D)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q2-D)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q3-D)"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 2"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 3"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 5"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 6"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 7"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 10"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 11"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 12"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 13"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 14"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 15"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 16"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 20"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 21"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 22"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 23"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 24"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 26"
+      },
+      {
+        "netclass": "RASPB PI 5",
+        "pattern": "GPIO 27"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -718,7 +961,7 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -730,12 +973,24 @@
           "group_by": false,
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Arrow Price/Stock",
           "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DUPLICATE",
+          "name": "DUPLICATE",
           "show": false
         }
       ],
@@ -787,7 +1042,7 @@
         "uuid": "af4f5558-672d-42f1-bcb2-d73fc89abcc2"
       }
     ],
-    "used_designators": "F3",
+    "used_designators": "FID1-4",
     "variants": []
   },
   "sheets": [
