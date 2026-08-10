@@ -1,0 +1,96 @@
+### Module positions - created on 2026-06-30 11:57
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 109.375mm, Pcb Width 221.230mm [based on Edge bounding box]
+## Side : ALL
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+C8            100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  208.9000   -66.3000   208.9000   -66.3000      9.0    top       THD
+J33           left                PinHeader_1x06_P2.54mm_Vert.. 130.0000   -48.0000   130.0000   -48.0000      0.0    top       THD
+J8            4 Pin Molex Header  Molex-4Pin                    215.6000   -60.5250   215.6000   -60.5250     18.0    top       THD
+J7            PCIe Header         2191160161                    235.9000   -95.7900   235.9000   -95.7900      9.0    top       THD
+R7            1k                  R_Axial_DIN0207_L6.3mm_D2.5.. 74.0500    -75.6600   74.0500    -75.6600      0.0    top       THD
+J36           LED 2               JST_B4B-XH-A_LF__SN_          160.7500   -147.9250  164.5000   -148.4500     0.0    top       THD
+R12           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 177.4500   -129.5000  177.4500   -129.5000    -9.0    top       THD
+FID3          Fiducial            Fiducial_0.75mm_Mask1.5mm     32.9000    -140.2000  0.0000     0.0000        0.0    top       VIRTUAL
+J34           right               PinHeader_1x06_P2.54mm_Vert.. 142.7000   -48.0000   142.7000   -48.0000      0.0    top       THD
+J5            Switch_1            JST_XH_B2B-XH-A_1x02_P2.50m.. 138.3350   -73.4700   138.3350   -73.4700      9.0    top       THD
+J6            FAN 4               Molex_KK-254_AE-6410-04A_1x.. 217.4200   -147.9500  217.4200   -147.9500     0.0    top       THD
+J22           DS12B20             JST_XH_B3B-XH-A_1x03_P2.50m.. 47.5000    -147.4500  47.5000    -147.4500     0.0    top       THD
+R21           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 84.9500    -140.5000  84.9500    -140.5000     9.0    top       THD
+R5            10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 64.4500    -73.6300   64.4500    -73.6300     -9.0    top       THD
+J26           DHT22               JST_XH_B3B-XH-A_1x03_P2.50m.. 109.0000   -147.4750  109.0000   -147.4750     0.0    top       THD
+U3            TC4427CPA           DIP794W46P254L978H432Q8       220.9800   -133.8100  217.0100   -130.0000     0.0    top       THD
+R10           1k                  R_Axial_DIN0207_L6.3mm_D2.5.. 73.9500    -89.6600   73.9500    -89.6600      0.0    top       THD
+Q3            IRLZ44N             TO-220-3_Vertical             163.0000   -134.5000  163.0000   -134.5000    -9.0    top       THD
+J23           DS12B20             JST_XH_B3B-XH-A_1x03_P2.50m.. 63.0000    -147.4500  63.0000    -147.4500     0.0    top       THD
+J27           DHT22               JST_XH_B3B-XH-A_1x03_P2.50m.. 125.5000   -147.4500  125.5000   -147.4500     0.0    top       THD
+J13           3V3 I2C             JST_XH_B4B-XH-A_1x04_P2.50m.. 113.2500   -50.9750   113.2500   -50.9750      0.0    top       THD
+R13           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 206.9500   -139.6600  206.9500   -139.6600     9.0    top       THD
+FID2          Fiducial            Fiducial_0.75mm_Mask1.5mm     248.5000   -58.1000   0.0000     0.0000        0.0    top       VIRTUAL
+R3            10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 71.1600    -58.7400   71.1600    -58.7400     -9.0    top       THD
+C3            100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  195.4500   -122.0800  195.4500   -122.0800    18.0    top       THD
+R24           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 162.0100   -71.2300   162.0100   -71.2300     18.0    top       THD
+J11           Peltier             TerminalBlock_MaiXu_MX126-5.. 240.2000   -113.2000  240.2000   -113.2000    -9.0    top       THD
+D1            D_TVS               D_DO-201_P15.24mm_Horizontal  187.8800   -92.0000   187.8800   -92.0000      0.0    top       THD
+J19           3V3 I2C             NS-Tech_Grove_1x04_P2mm_Ver.. 62.0000    -50.9750   62.0000    -50.9750      9.0    top       THD
+G***          LOGO                LOGO                          192.5000   -51.9000   0.0000     0.0000        0.0    top       VIRTUAL
+J25           DS12B20             JST_XH_B3B-XH-A_1x03_P2.50m.. 93.5000    -147.4500  93.5000    -147.4500     0.0    top       THD
+J15           3V3 I2C             NS-Tech_Grove_1x04_P2mm_Ver.. 96.0000    -50.9750   96.0000    -50.9750      9.0    top       THD
+R6            10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 60.9700    -81.2200   60.9700    -81.2200     -9.0    top       THD
+Q2            IRLZ44N             TO-220-3_Vertical             153.4900   -134.4600  153.4900   -134.4600    -9.0    top       THD
+C7            220uF               CP_Radial_D10.0mm_P5.00mm     244.2000   -77.3000   244.2000   -77.3000      9.0    top       THD
+R1            4.7k                R_Axial_DIN0207_L6.3mm_D2.5.. 55.9500    -140.5000  55.9500    -140.5000     9.0    top       THD
+J17           3V3 I2C             JST_XH_B4B-XH-A_1x04_P2.50m.. 78.5000    -50.9750   78.5000    -50.9750      0.0    top       THD
+R19           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 153.5000   -130.0800  153.5000   -130.0800     9.0    top       THD
+R9            1k                  R_Axial_DIN0207_L6.3mm_D2.5.. 73.9500    -85.3300   73.9500    -85.3300      0.0    top       THD
+R2            10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 60.0000    -140.5000  60.0000    -140.5000     9.0    top       THD
+J4            FAN 3               Molex_KK-254_AE-6410-04A_1x.. 202.8800   -147.9500  202.8800   -147.9500     0.0    top       THD
+U2            TC4427CPA           DIP794W46P254L978H432Q8       192.9200   -134.3100  188.9500   -130.5000     0.0    top       THD
+C10           100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  164.0600   -98.3900   164.0600   -98.3900     18.0    top       THD
+R23           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 147.8200   -81.4500   147.8200   -81.4500      9.0    top       THD
+R18           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 172.0000   -105.3400  172.0000   -105.3400    -9.0    top       THD
+C9            100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  145.5600   -98.3100   145.5600   -98.3100     18.0    top       THD
+J10           Raspberry Pi 5      PinHeader_2x20_P2.54mm_Vert.. 43.2600    -67.9800   43.2600    -67.9800      0.0    top       THD
+U5            TC4427CPA           DIP794W46P254L978H432Q8       161.5600   -110.8900  157.5900   -107.0800     0.0    top       THD
+C5            100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  210.2500   -98.7500   210.2500   -98.7500     -9.0    top       THD
+FID4          Fiducial            Fiducial_0.75mm_Mask1.5mm     248.4000   -140.3000  0.0000     0.0000        0.0    top       VIRTUAL
+J24           DS12B20             JST_XH_B3B-XH-A_1x03_P2.50m.. 78.1000    -147.4500  78.1000    -147.4500     0.0    top       THD
+R8            1k                  R_Axial_DIN0207_L6.3mm_D2.5.. 74.0200    -80.5100   74.0200    -80.5100      0.0    top       THD
+J1            Peltier             PinHeader_1x05_P2.54mm_Vert.. 44.2200    -52.1100   44.2200    -52.1100      9.0    top       THD
+C4            100nF               C_Disc_D5.0mm_W2.5mm_P5.00mm  223.4500   -122.0800  223.4500   -122.0800    18.0    top       THD
+R14           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 211.0000   -139.6600  211.0000   -139.6600     9.0    top       THD
+R22           4.7k                R_Axial_DIN0207_L6.3mm_D2.5.. 89.0000    -140.5000  89.0000    -140.5000     9.0    top       THD
+J9            5V I2C              JST_XH_B4B-XH-A_1x04_P2.50m.. 152.5000   -51.0000   152.5000   -51.0000      0.0    top       THD
+J21           Camera              PinHeader_1x10_P2.54mm_Vert.. 58.2500    -99.6400   58.2500    -99.6400      0.0    top       THD
+U4            TC4427CPA           DIP794W46P254L978H432Q8       143.0300   -110.8100  139.0600   -107.0000     0.0    top       THD
+J35           LED 1               JST_B4B-XH-A_LF__SN_          144.2500   -147.9250  148.0000   -148.4500     0.0    top       THD
+J18           5V I2C              NS-Tech_Grove_1x04_P2mm_Ver.. 170.0000   -51.0000   170.0000   -51.0000      9.0    top       THD
+R17           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 142.5000   -130.0800  142.5000   -130.0800     9.0    top       THD
+U1            ESP32-DEVKITC-32E   MODULE_ESP32-DEVKITC-32E      102.3000   -94.7150   0.0000     0.0000        0.0    top       THD
+R16           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 127.0600   -105.7300  127.0600   -105.7300    -9.0    top       THD
+R25           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 198.9300   -70.1100   198.9300   -70.1100     18.0    top       THD
+R20           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 163.0000   -130.1600  163.0000   -130.1600     9.0    top       THD
+FID1          Fiducial            Fiducial_0.75mm_Mask1.5mm     32.3000    -58.2000   0.0000     0.0000        0.0    top       VIRTUAL
+J3            FAN 2               Molex_KK-254_AE-6410-04A_1x.. 188.3800   -147.9500  188.3800   -147.9500     0.0    top       THD
+R11           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 181.5000   -129.5000  181.5000   -129.5000    -9.0    top       THD
+R15           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 131.1100   -105.7300  131.1100   -105.7300    -9.0    top       THD
+F4            Fuse 11A            Fuseholder_Cylinder-5x20mm_.. 233.8000   -74.1000   233.8000   -74.1000     18.0    top       THD
+F3            Fuse 30A            Fuse_Blade_ATO_directSolder   212.1000   -92.0000   212.1000   -92.0000      0.0    top       THD
+R4            10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 67.8400    -66.1300   67.8400    -66.1300     -9.0    top       THD
+J2            FAN 1               Molex_KK-254_AE-6410-04A_1x.. 173.8800   -147.9500  173.8800   -147.9500     0.0    top       THD
+R26           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 184.2600   -79.8900   184.2600   -79.8900      9.0    top       THD
+J20           Switch_2            JST_XH_B2B-XH-A_1x02_P2.50m.. 173.3700   -73.3100   173.3700   -73.3100      9.0    top       THD
+Q1            IRLZ44N             TO-220-3_Vertical             142.5000   -134.5000  142.5000   -134.5000    -9.0    top       THD
+C6            1000uF              CP_Radial_D10.0mm_P5.00mm     203.5000   -101.5000  203.5000   -101.5000    18.0    top       THD
+R27           10k                 R_Axial_DIN0207_L6.3mm_D2.5.. 240.4000   -124.3000  240.4000   -124.3000    18.0    top       THD
+## End
+## 0 SMD pads
+## 319 TH pads
+## 4 Virtual pads
+## 74 Top TH modules
+## 0 Bot TH modules
+## 0 Top SMD modules
+## 0 Bot SMD modules
+## 5 Top Virtual modules
+## 0 Bot Virtual modules

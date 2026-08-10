@@ -3576,6 +3576,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4874,6 +5026,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 153.67) (xy 87.63 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022328bf-45c7-4449-b909-151fb4895fad")
+	)
+	(wire
+		(pts
 			(xy 208.28 118.11) (xy 229.87 118.11)
 		)
 		(stroke
@@ -4944,6 +5106,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 158.75) (xy 106.68 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f95867c-6f83-4a64-8a07-60fa84045bd9")
+	)
+	(wire
+		(pts
 			(xy 128.27 167.64) (xy 128.27 170.18)
 		)
 		(stroke
@@ -4994,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 152.4) (xy 104.14 151.13)
+			(xy 87.63 153.67) (xy 87.63 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5184,6 +5356,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 158.75) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30097917-e15d-48e9-9f63-3091733300b3")
+	)
+	(wire
+		(pts
 			(xy 128.27 194.31) (xy 128.27 193.04)
 		)
 		(stroke
@@ -5294,16 +5476,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 154.94) (xy 106.68 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "445d1798-7aea-484e-82dd-e3c20083e670")
-	)
-	(wire
-		(pts
 			(xy 96.52 146.05) (xy 110.49 146.05)
 		)
 		(stroke
@@ -5411,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "5790087e-0c90-4402-bb10-0230a044267d")
+	)
+	(wire
+		(pts
+			(xy 106.68 158.75) (xy 106.68 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acd139e-1cf4-444a-a631-87a341ca06ca")
 	)
 	(wire
 		(pts
@@ -5541,16 +5723,6 @@
 			(type default)
 		)
 		(uuid "6eb24d82-594d-4ae9-84cf-1353ddb7974c")
-	)
-	(wire
-		(pts
-			(xy 88.9 154.94) (xy 92.71 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f51dce6-b9fc-4921-abd9-56b89bcd11cf")
 	)
 	(wire
 		(pts
@@ -5824,16 +5996,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 157.48) (xy 88.9 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fa107e6-1ea2-47df-b316-f5c580ae62d4")
-	)
-	(wire
-		(pts
 			(xy 237.49 33.02) (xy 237.49 43.18)
 		)
 		(stroke
@@ -5971,6 +6133,16 @@
 			(type default)
 		)
 		(uuid "b6ec6604-d281-4367-a050-2ebf0f402f19")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b757edd7-28db-40c1-ab6e-cf541c012d6e")
 	)
 	(wire
 		(pts
@@ -6234,7 +6406,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 152.4) (xy 104.14 152.4)
+			(xy 106.68 153.67) (xy 101.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8141,7 +8313,7 @@
 			(uuid "9923d9ce-917f-44ef-98bb-bc429159dd2d")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J20")
 					(unit 1)
@@ -8232,7 +8404,7 @@
 			(uuid "a7df87c3-272d-4f30-8682-6372e587fafa")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J1")
 					(unit 1)
@@ -8314,7 +8486,7 @@
 			(uuid "3d3f71c4-a006-4089-b489-218accc94808")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R2")
 					(unit 1)
@@ -8392,7 +8564,7 @@
 			(uuid "5903853c-3d49-4034-83ce-1797dd5643de")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR03")
 					(unit 1)
@@ -8469,7 +8641,7 @@
 			(uuid "95707989-8096-485c-98a9-c2a28d23748e")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR010")
 					(unit 1)
@@ -8663,7 +8835,7 @@
 			(uuid "7c95deba-fe3e-417f-af9c-7358b0be113b")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J10")
 					(unit 1)
@@ -8741,7 +8913,7 @@
 			(uuid "fc6ad865-9560-4d84-918f-141e7f9c109c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR02")
 					(unit 1)
@@ -8819,7 +8991,7 @@
 			(uuid "8522f7a6-bd11-4ee5-9cfb-25fc7469732a")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR08")
 					(unit 1)
@@ -8895,7 +9067,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "FID2")
 					(unit 1)
@@ -8973,7 +9145,7 @@
 			(uuid "53e0f885-2bd4-4458-9b83-35938bf763ef")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR011")
 					(unit 1)
@@ -9216,7 +9388,7 @@
 			(uuid "8f2bb80c-696d-4c1f-9341-809c3f6d1ec0")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J23")
 					(unit 1)
@@ -9292,7 +9464,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "FID1")
 					(unit 1)
@@ -9370,7 +9542,7 @@
 			(uuid "4c62ec1d-bce0-4073-85d0-72e1a055313c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR05")
 					(unit 1)
@@ -9452,7 +9624,7 @@
 			(uuid "cfe115a1-4c2a-4c8b-8509-cf40863a88a1")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R21")
 					(unit 1)
@@ -9530,7 +9702,7 @@
 			(uuid "f482beaf-5c27-4a48-9d82-349599e2b68e")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR06")
 					(unit 1)
@@ -9540,7 +9712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 157.48 0)
+		(at 88.9 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9548,10 +9720,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f3081d8-2a6c-4106-a1e4-9296572346f4")
 		(property "Reference" "#PWR056"
-			(at 88.9 163.83 0)
+			(at 88.9 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,7 +9733,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 162.56 0)
+			(at 88.9 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9572,7 +9743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 157.48 0)
+			(at 88.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9583,7 +9754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 157.48 0)
+			(at 88.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9594,7 +9765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 157.48 0)
+			(at 88.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9608,7 +9779,7 @@
 			(uuid "cfaed68d-3f85-4e58-84fc-ef5221ba2bb6")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR056")
 					(unit 1)
@@ -9830,7 +10001,7 @@
 			(uuid "2785bedd-9938-4d1d-be42-16432947c76d")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J9")
 					(unit 1)
@@ -9923,7 +10094,7 @@
 			(uuid "be1a84db-c2e8-48f5-9723-5e4aab7b101e")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J33")
 					(unit 1)
@@ -10029,7 +10200,7 @@
 			(uuid "f24afb5a-d620-41e2-8d32-2ec854b5a1a0")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J21")
 					(unit 1)
@@ -10107,7 +10278,7 @@
 			(uuid "ba411a74-4be2-4416-8d1c-39579eeb32d2")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR013")
 					(unit 1)
@@ -10329,7 +10500,7 @@
 			(uuid "739442f8-5fcf-49d6-8840-e9c2d69fbc33")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J18")
 					(unit 1)
@@ -10339,7 +10510,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 154.94 270)
+		(at 96.52 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10349,7 +10520,7 @@
 		(dnp no)
 		(uuid "653245de-cc43-4b55-9319-b1e89cb308da")
 		(property "Reference" "R27"
-			(at 98.044 152.654 90)
+			(at 98.044 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10360,7 +10531,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 98.044 157.226 90)
+			(at 98.044 161.036 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10371,7 +10542,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 96.52 153.162 90)
+			(at 96.52 156.972 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10382,7 +10553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 154.94 0)
+			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10393,7 +10564,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 154.94 0)
+			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10410,7 +10581,7 @@
 			(uuid "b67c34a8-f7dc-449d-b3d8-0a14c89d175d")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R27")
 					(unit 1)
@@ -10491,7 +10662,7 @@
 			(uuid "193f6847-dc93-496e-b345-d974a4adfffe")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R24")
 					(unit 1)
@@ -10713,7 +10884,7 @@
 			(uuid "d389eeb4-46de-4582-974d-b8ad2711c61f")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J17")
 					(unit 1)
@@ -10935,7 +11106,7 @@
 			(uuid "821fccba-44a5-4a04-b2ee-3aad8ae82340")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J19")
 					(unit 1)
@@ -11178,7 +11349,7 @@
 			(uuid "8b74273d-81f3-4d40-9824-272c0a65abff")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J22")
 					(unit 1)
@@ -11400,7 +11571,7 @@
 			(uuid "559ebd9c-764f-467d-8ae5-34fb3be13b50")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J13")
 					(unit 1)
@@ -11410,7 +11581,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 104.14 151.13 0)
+		(at 87.63 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11420,7 +11591,7 @@
 		(dnp no)
 		(uuid "80056fce-73c3-4822-9fe9-c4017b72f36e")
 		(property "Reference" "#PWR026"
-			(at 104.14 154.94 0)
+			(at 87.63 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11431,7 +11602,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 106.68 147.828 0)
+			(at 90.17 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11441,7 +11612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 151.13 0)
+			(at 87.63 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 151.13 0)
+			(at 87.63 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 104.14 151.13 0)
+			(at 87.63 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11477,7 +11648,7 @@
 			(uuid "b980e253-1e59-43c7-be72-d3f9f0edf451")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR026")
 					(unit 1)
@@ -11720,7 +11891,7 @@
 			(uuid "c1738a97-4662-4592-a486-f0050649e963")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J27")
 					(unit 1)
@@ -11798,7 +11969,7 @@
 			(uuid "eecfb4ce-6af6-4ba1-966e-07bc774d7d24")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR04")
 					(unit 1)
@@ -11880,7 +12051,7 @@
 			(uuid "522970cf-05d3-4100-913a-1da282738abe")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R26")
 					(unit 1)
@@ -12123,7 +12294,7 @@
 			(uuid "e139dfa1-951b-4843-b69a-f0c1948827a9")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J25")
 					(unit 1)
@@ -12201,7 +12372,7 @@
 			(uuid "a6dfbe7d-da42-43bd-9947-276d1d775658")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR01")
 					(unit 1)
@@ -12444,7 +12615,7 @@
 			(uuid "87933787-6568-4dac-993c-9dd088ff7847")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J26")
 					(unit 1)
@@ -12666,7 +12837,7 @@
 			(uuid "e9482eef-e39b-4416-9942-0b3b21edfdc0")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J15")
 					(unit 1)
@@ -12742,7 +12913,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "FID3")
 					(unit 1)
@@ -12821,7 +12992,7 @@
 			(uuid "9685086e-b2e1-406e-afd5-1f8a420716ad")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R25")
 					(unit 1)
@@ -13049,7 +13220,7 @@
 			(uuid "675d06a2-e6fa-4baf-9389-cb340df911f5")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J5")
 					(unit 1)
@@ -13141,7 +13312,7 @@
 			(uuid "d25ac6d6-777e-40c6-be7b-6a115b01e133")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J34")
 					(unit 1)
@@ -13220,7 +13391,7 @@
 			(uuid "e865d244-50f2-4ec6-b3d2-f9428cdf27d5")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R1")
 					(unit 1)
@@ -13298,7 +13469,7 @@
 			(uuid "3b3b8c31-94f6-4f67-92f6-941cea55abb6")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR012")
 					(unit 1)
@@ -13375,7 +13546,7 @@
 			(uuid "2fc7eba5-1dd8-48b8-b2b0-361e38357066")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR09")
 					(unit 1)
@@ -13454,7 +13625,7 @@
 			(uuid "fc873fde-031e-4c27-8328-8a0109e6bddc")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R22")
 					(unit 1)
@@ -13530,7 +13701,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "FID4")
 					(unit 1)
@@ -13608,7 +13779,7 @@
 			(uuid "da697ab6-dce4-492a-9954-bf43f8ae3c30")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR07")
 					(unit 1)
@@ -13686,7 +13857,7 @@
 			(uuid "3c930bd2-8e1c-4a1d-8602-5626546be7a9")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR055")
 					(unit 1)
@@ -13765,7 +13936,7 @@
 			(uuid "eaf05606-e103-4721-9f00-8cf10992958d")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "R23")
 					(unit 1)
@@ -13775,7 +13946,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 111.76 152.4 0)
+		(at 111.76 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13786,7 +13957,7 @@
 		(fields_autoplaced yes)
 		(uuid "e21df5fa-2932-4fd9-adac-4a19a8935a51")
 		(property "Reference" "J11"
-			(at 114.3 152.3999 0)
+			(at 114.3 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13797,7 +13968,7 @@
 			)
 		)
 		(property "Value" "Peltier"
-			(at 114.3 154.9399 0)
+			(at 114.3 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13808,7 +13979,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 111.76 152.4 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13819,7 +13990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 152.4 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13830,7 +14001,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 152.4 0)
+			(at 111.76 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13847,7 +14018,7 @@
 			(uuid "21f4b75a-7da7-4246-99ed-8db84b526411")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J11")
 					(unit 1)
@@ -14090,9 +14261,88 @@
 			(uuid "9d8f5ead-7db9-4dd9-b95b-7d61b0988eed")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 97.79 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe5bc35a-2450-490b-91e8-4f13b07df0fa")
+		(property "Reference" "F1"
+			(at 97.79 149.098 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse 15A"
+			(at 97.79 151.638 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_Blade:Fuse_Blade_ATO_directSolder_32V_15A"
+			(at 97.79 155.448 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 97.79 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7e49285-0451-48d6-bee0-46062fd94493")
+		)
+		(pin "1"
+			(uuid "1dbb46fd-212b-4488-8625-3b18bbab3391")
+		)
+		(instances
+			(project "VertiFarm_PCB"
+				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -14137,7 +14387,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(page "2")
 				)
@@ -14183,7 +14433,7 @@
 			)
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(page "3")
 				)

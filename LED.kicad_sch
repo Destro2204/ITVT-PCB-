@@ -2494,7 +2494,7 @@
 			(uuid "c08ba601-df9d-4117-9efc-98eb78ceaff8")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR047")
 					(unit 1)
@@ -2572,7 +2572,7 @@
 			(uuid "051750ad-7ada-46b5-9241-46aea9863e50")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR054")
 					(unit 1)
@@ -2654,7 +2654,7 @@
 			(uuid "7a0a8d51-cf50-4cd0-8414-464e7946357c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R17")
 					(unit 1)
@@ -2732,7 +2732,7 @@
 			(uuid "054a9592-9ee8-4741-a084-6174ef917b7b")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR044")
 					(unit 1)
@@ -2814,7 +2814,7 @@
 			(uuid "930272c3-0cf9-4817-9797-80cb96d03478")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R16")
 					(unit 1)
@@ -2892,7 +2892,7 @@
 			(uuid "b7f9c463-3496-4da3-af6e-8120faa8836a")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR039")
 					(unit 1)
@@ -2936,7 +2936,7 @@
 			(at 71.12 62.23 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			(uuid "ed5c0d58-4389-48aa-a743-2e2ac4ea5c87")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "U4")
 					(unit 1)
@@ -3184,7 +3184,7 @@
 			(uuid "8225b7f7-6a16-4d1f-bd13-6976758b3300")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR040")
 					(unit 1)
@@ -3406,7 +3406,7 @@
 			(uuid "2f64534e-db31-49c9-984a-e1e792e088b2")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "J35")
 					(unit 1)
@@ -3488,7 +3488,7 @@
 			(uuid "72d8036f-3212-4635-a429-6e5bb9ba4f04")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "C10")
 					(unit 1)
@@ -3566,7 +3566,7 @@
 			(uuid "0c3d6c6c-ff31-4dc7-a414-3566356f5bfd")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR043")
 					(unit 1)
@@ -3788,7 +3788,7 @@
 			(uuid "06d6957e-787e-4bf8-83bc-46a4fe288ea1")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "J36")
 					(unit 1)
@@ -3870,7 +3870,7 @@
 			(uuid "63bc4a28-a214-4fec-af22-ab0ce2d9d2db")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R20")
 					(unit 1)
@@ -3948,7 +3948,7 @@
 			(uuid "3627b820-6f14-4ee0-a50f-db92a72f066c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR050")
 					(unit 1)
@@ -4026,7 +4026,7 @@
 			(uuid "d726057c-e093-41d8-9afc-868c4cd62d2c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR053")
 					(unit 1)
@@ -4108,7 +4108,7 @@
 			(uuid "fe32f0e4-1076-49be-9e64-27256b7cfed4")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R19")
 					(unit 1)
@@ -4186,7 +4186,7 @@
 			(uuid "9141ff50-25d8-45b6-810a-01b3b43192d2")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR052")
 					(unit 1)
@@ -4274,7 +4274,7 @@
 			(uuid "3b3354a4-1571-4438-b39b-4eb27f3da11c")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "Q2")
 					(unit 1)
@@ -4356,7 +4356,7 @@
 			(uuid "2cf229f7-f4a2-4c97-ad82-adfee7b829de")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R18")
 					(unit 1)
@@ -4434,7 +4434,7 @@
 			(uuid "3d9a5be2-11e5-4155-ab10-7bc9567f8fb3")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR049")
 					(unit 1)
@@ -4522,7 +4522,7 @@
 			(uuid "09fe48d0-eab6-4f76-bb4d-0906199ef1b0")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "Q3")
 					(unit 1)
@@ -4600,7 +4600,7 @@
 			(uuid "f0f95b42-6662-4881-b28a-19600d9eb8ad")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR048")
 					(unit 1)
@@ -4814,7 +4814,7 @@
 			(uuid "2046cbc5-6264-4c6b-b62a-6ce2e06b6093")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "U5")
 					(unit 1)
@@ -4896,7 +4896,7 @@
 			(uuid "e87f6bd0-7642-4542-93ac-5dca1f2b51c8")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "R15")
 					(unit 1)
@@ -4974,7 +4974,7 @@
 			(uuid "1c79d3ee-e3df-452e-937f-c1508bb413c6")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR041")
 					(unit 1)
@@ -5052,7 +5052,7 @@
 			(uuid "bc397c60-5ad1-4802-970a-cc96097180b6")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR042")
 					(unit 1)
@@ -5134,7 +5134,7 @@
 			(uuid "60778d2e-2f84-459d-86f6-8d84caffbb76")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "C9")
 					(unit 1)
@@ -5212,7 +5212,7 @@
 			(uuid "b1bc0288-ddf0-4a5e-b4f9-c5e4fcc0b8f0")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR038")
 					(unit 1)
@@ -5290,7 +5290,7 @@
 			(uuid "6fde270a-0221-42a3-af38-e5842016b85b")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR046")
 					(unit 1)
@@ -5368,7 +5368,7 @@
 			(uuid "503838aa-6f7f-44c6-8c06-b5f794bde762")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR051")
 					(unit 1)
@@ -5456,7 +5456,7 @@
 			(uuid "b1cbe3ab-c513-4c38-a09b-38998de1801f")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "Q1")
 					(unit 1)
@@ -5534,7 +5534,7 @@
 			(uuid "739d45f0-ee8b-4cf6-b42b-6cf3f720861e")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/624b1daa-f3f4-4697-9f1d-84eed185d714/5e98db2a-9cfd-4194-8b08-d76de0d89200"
 					(reference "#PWR045")
 					(unit 1)

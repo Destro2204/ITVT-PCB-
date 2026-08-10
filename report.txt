@@ -1,0 +1,13 @@
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-F_Cu.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-In1_Cu.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-In2_Cu.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-B_Cu.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-F_Paste.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-B_Paste.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-F_Silkscreen.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-B_Silkscreen.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-F_Mask.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-B_Mask.gbr'.
+Tracé en 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-Edge_Cuts.gbr'.
+Création du fichier Gerber "job" 'C:\Users\medta\Downloads\PCB\PCB\PCB_Test\Gerber\PCB_Test-job.gbrjob'.
+Info: Fini.

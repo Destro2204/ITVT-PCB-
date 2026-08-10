@@ -2742,7 +2742,7 @@
 			(uuid "36a6cf86-9e91-400b-992b-f876d58dcea7")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "J8")
 					(unit 1)
@@ -2820,7 +2820,7 @@
 			(uuid "48b5a043-4b95-4ff1-a59c-dac85bfaccaf")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "#PWR036")
 					(unit 1)
@@ -2901,7 +2901,7 @@
 			(uuid "6688f4ce-36b8-4b66-b69e-d4d35c8e4395")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "C7")
 					(unit 1)
@@ -2932,7 +2932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse 30A"
+		(property "Value" "Fuse 40A"
 			(at 102.87 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +2943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Blade_ATO_directSolder"
+		(property "Footprint" "Fuse_Blade:Fuse_Blade_ATO_directSolder_32V_40A"
 			(at 98.552 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2983,7 +2983,7 @@
 			(uuid "10e7c9c4-b0fb-4914-ac81-1155ef23a7c8")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "F3")
 					(unit 1)
@@ -3061,7 +3061,7 @@
 			(uuid "b7917977-7b28-420a-8f4f-13c5e208e679")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "#PWR037")
 					(unit 1)
@@ -3142,7 +3142,7 @@
 			(uuid "8897c79d-7a74-4726-bac2-3a5ce40726b2")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "C5")
 					(unit 1)
@@ -3223,7 +3223,7 @@
 			(uuid "4c1d41de-3e1a-42e0-859a-e613ab559853")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "C8")
 					(unit 1)
@@ -3253,7 +3253,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse 11A"
+		(property "Value" "Fuse 10A"
 			(at 219.71 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,8 +3263,9 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
+		(property "Footprint" "Fuse_Blade:Fuse_Blade_ATO_12VDC_10A"
 			(at 219.71 93.218 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3302,7 +3303,7 @@
 			(uuid "c3eaf6c1-015f-4451-b205-8a9f813f3346")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "F4")
 					(unit 1)
@@ -3380,7 +3381,7 @@
 			(uuid "8ee3a89f-f929-4fa4-8d2f-681f2b14b254")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "#PWR034")
 					(unit 1)
@@ -3461,7 +3462,7 @@
 			(uuid "01d27b2c-801b-4bc7-a1d2-fa2d2c63f80e")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "D1")
 					(unit 1)
@@ -3668,7 +3669,7 @@
 			(uuid "807a53e2-5a1c-4e6a-ba7d-8f4e3c112078")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "J7")
 					(unit 1)
@@ -3746,7 +3747,7 @@
 			(uuid "36a09cc1-9831-4974-acec-f26d4a00c382")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "#PWR035")
 					(unit 1)
@@ -3827,7 +3828,7 @@
 			(uuid "7e80480e-ead5-4d58-ab91-82d5057e0c90")
 		)
 		(instances
-			(project "PCB_Test"
+			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2/e0a23ab8-28f9-4c3b-ac56-8ad0faecca7e"
 					(reference "C6")
 					(unit 1)

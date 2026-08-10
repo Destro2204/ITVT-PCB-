@@ -52,20 +52,20 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 4.0,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.8,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.3,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_Test.kicad_pro",
+    "filename": "VertiFarm_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1037,18 +1037,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "PCB_Test.kicad_sch",
-        "name": "PCB_Test",
+        "filename": "VertiFarm_PCB.kicad_sch",
+        "name": "VertiFarm_PCB",
         "uuid": "af4f5558-672d-42f1-bcb2-d73fc89abcc2"
       }
     ],
-    "used_designators": "FID1-4",
+    "used_designators": "FID1-4,F1",
     "variants": []
   },
   "sheets": [
     [
       "af4f5558-672d-42f1-bcb2-d73fc89abcc2",
-      "PCB_Test"
+      "VertiFarm_PCB"
     ],
     [
       "624b1daa-f3f4-4697-9f1d-84eed185d714",

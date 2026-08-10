@@ -1,0 +1,13 @@
+### Module positions - created on 2026-06-30 11:57
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 109.375mm, Pcb Width 221.230mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+FID3          Fiducial            Fiducial_0.75mm_Mask1.5mm     32.9000    -140.2000  0.0000     0.0000        0.0    top       VIRTUAL
+FID2          Fiducial            Fiducial_0.75mm_Mask1.5mm     248.5000   -58.1000   0.0000     0.0000        0.0    top       VIRTUAL
+G***          LOGO                LOGO                          192.5000   -51.9000   0.0000     0.0000        0.0    top       VIRTUAL
+FID4          Fiducial            Fiducial_0.75mm_Mask1.5mm     248.4000   -140.3000  0.0000     0.0000        0.0    top       VIRTUAL
+FID1          Fiducial            Fiducial_0.75mm_Mask1.5mm     32.3000    -58.2000   0.0000     0.0000        0.0    top       VIRTUAL
+## End
