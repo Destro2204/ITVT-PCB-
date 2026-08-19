@@ -14240,7 +14240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse_Blade:Fuse_Blade_ATO_directSolder_32V_15A"
+		(property "Footprint" "Footprint:Fuse_Blade_ATO_directSolder_32V_15A"
 			(at 97.79 155.448 90)
 			(hide yes)
 			(show_name no)

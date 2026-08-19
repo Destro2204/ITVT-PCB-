@@ -65,7 +65,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PCB_Test.kicad_prl",
+    "filename": "VertiFarm_PCB.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
