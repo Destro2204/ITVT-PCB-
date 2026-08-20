@@ -1,0 +1,40 @@
+Drill report for VertiFarm_PCB.kicad_pcb
+Created on 2026-08-20T22:23:09
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'VertiFarm_PCB-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (41 holes))
+    T2  0.460mm  0.0181"  (2 holes)  (with 2 slots)
+    T3  0.600mm  0.0236"  (4 holes))
+    T4  0.700mm  0.0276"  (1 hole)  (with 1 slot)
+    T5  0.762mm  0.0300"  (12 holes))
+    T6  0.800mm  0.0315"  (69 holes)  (with 3 slots)
+    T7  0.830mm  0.0327"  (32 holes))
+    T8  0.900mm  0.0354"  (38 holes))
+    T9  0.950mm  0.0374"  (30 holes))
+    T10  1.000mm  0.0394"  (83 holes))
+    T11  1.020mm  0.0402"  (12 holes))
+    T12  1.100mm  0.0433"  (9 holes))
+    T13  1.190mm  0.0469"  (16 holes))
+    T14  1.300mm  0.0512"  (4 holes))
+    T15  1.850mm  0.0728"  (4 holes))
+
+    Total plated holes count 357
+
+
+Drill file 'VertiFarm_PCB-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (2 holes))
+    T2  3.050mm  0.1201"  (2 holes))
+
+    Total unplated holes count 4

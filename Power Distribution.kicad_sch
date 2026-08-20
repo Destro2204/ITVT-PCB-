@@ -2945,6 +2945,7 @@
 		)
 		(property "Footprint" "Footprint:Fuse_Blade_ATO_directSolder_32V_40A"
 			(at 98.552 69.85 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
