@@ -1,0 +1,230 @@
+(footprint "35552"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3555-2-1")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at 14.685 0.261 0)
+		(layer "F.SilkS")
+		(uuid "213de585-12f2-4db5-8c21-4c60ceabe0b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "35552"
+		(at 14.685 0.261 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9510c890-e55b-470e-9040-f68731a7069d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b74b45b7-a475-47f4-9904-44d99a5ff483")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ae39c39-7380-45ce-89f1-d0e7ae7de22a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.22 1.5)
+		(end -3.22 3.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "534cb8b8-4ad7-4d40-a829-27bf18c6bb3a")
+	)
+	(fp_line
+		(start -3.22 3.59)
+		(end 32.59 3.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d69650b1-f61e-42ed-a17c-d0fe4ee1fcc6")
+	)
+	(fp_line
+		(start 11 -2.25)
+		(end 18.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b10e7829-70d4-46f3-a295-26f8fc3bf265")
+	)
+	(fp_line
+		(start 32.59 3.59)
+		(end 32.59 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebb96ba0-43f8-4c4f-86b3-b0109a77a78a")
+	)
+	(fp_line
+		(start -4.22 -4.067)
+		(end 33.59 -4.067)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3ab9ece-beed-4f27-a4cf-4c88667dee8b")
+	)
+	(fp_line
+		(start -4.22 4.59)
+		(end -4.22 -4.067)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "502eb9e4-34fa-4165-8e32-6013335a14dc")
+	)
+	(fp_line
+		(start 33.59 -4.067)
+		(end 33.59 4.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd09090d-5696-40b7-94dc-4ca67514078f")
+	)
+	(fp_line
+		(start 33.59 4.59)
+		(end -4.22 4.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff78b834-c3c2-4f7e-9e04-575759319541")
+	)
+	(fp_line
+		(start -3.22 -2.25)
+		(end 32.59 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "953127a5-c676-4453-84b0-bdf39fe6f9f1")
+	)
+	(fp_line
+		(start -3.22 3.59)
+		(end -3.22 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b9e9293-1789-4347-9287-d07634367f30")
+	)
+	(fp_line
+		(start 32.59 -2.25)
+		(end 32.59 3.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cd4f287-caa8-427c-81b6-ec1e8554127a")
+	)
+	(fp_line
+		(start 32.59 3.59)
+		(end -3.22 3.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "234c475e-8ab3-473d-9b69-09d380666e38")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.685 0.261 0)
+		(layer "F.Fab")
+		(uuid "3a7d15a3-f1f3-4d1d-ad3d-ed731e791340")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.135 6.135)
+		(drill 4.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0390ef2f-3015-4ad1-8369-2078b3f320bb")
+	)
+	(pad "1" thru_hole circle
+		(at 8.33 0)
+		(size 6.135 6.135)
+		(drill 4.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa3b4fb0-4068-47b6-af78-05be81405d5d")
+	)
+	(pad "2" thru_hole circle
+		(at 21.03 0)
+		(size 6.135 6.135)
+		(drill 4.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "241a8369-e9f5-4122-8105-4bffc1a3aa03")
+	)
+	(pad "2" thru_hole circle
+		(at 29.36 0)
+		(size 6.135 6.135)
+		(drill 4.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef19225b-24f5-4169-98de-a0fb8d593300")
+	)
+	(embedded_fonts no)
+	(model "3555-2.stp"
+		(offset
+			(xyz 14.66999986 -8.229999419 -1.769999954)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
