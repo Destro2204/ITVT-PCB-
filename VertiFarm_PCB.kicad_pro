@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 4.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "3.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -529,35 +529,44 @@
         "clearance": 0.2,
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.5,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.1,
         "name": "5V-Molex",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.1,
+        "name": "Fuse 15A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
         "tuning_profile": ""
       },
       {
         "clearance": 0.5,
         "name": "IRLZ44N",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "tuning_profile": "",
@@ -568,7 +577,7 @@
         "clearance": 0.2,
         "name": "RASPB PI 5",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -579,7 +588,7 @@
         "clearance": 0.3,
         "name": "TC4427",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "tuning_profile": "",
@@ -592,7 +601,7 @@
         "microvia_drill": 0.1,
         "name": "esp32 IO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -773,6 +782,42 @@
       {
         "netclass": "RASPB PI 5",
         "pattern": "GPIO 27"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q4-G)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q5-G)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q6-G)"
+      },
+      {
+        "netclass": "IRLZ44N",
+        "pattern": "Net-(Q7-G)"
+      },
+      {
+        "netclass": "TC4427",
+        "pattern": "Net-(J7-Pin_4)"
+      },
+      {
+        "netclass": "Fuse 15A",
+        "pattern": "Net-(J11-Pin_1)"
+      },
+      {
+        "netclass": "Fuse 15A",
+        "pattern": "Net-(J11-Pin_2)"
+      },
+      {
+        "netclass": "Fuse 15A",
+        "pattern": "Net-(J12-Pin_2)"
+      },
+      {
+        "netclass": "Fuse 15A",
+        "pattern": "Net-(J12-Pin_1)"
       }
     ]
   },
@@ -780,7 +825,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "Gerber/",
+      "plot": "C:/Users/medta/Downloads/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -1042,7 +1087,7 @@
         "uuid": "af4f5558-672d-42f1-bcb2-d73fc89abcc2"
       }
     ],
-    "used_designators": "FID1-4,F1",
+    "used_designators": "J16,R33-34,Q8,#PWR68",
     "variants": []
   },
   "sheets": [
