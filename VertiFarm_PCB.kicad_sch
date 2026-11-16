@@ -5140,12 +5140,6 @@
 		(uuid "5b3e5f2a-a55f-4360-883f-8eb2fddb86a7")
 	)
 	(junction
-		(at 255.27 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c028bfa-4dd1-4469-8d47-dd06979a6ad8")
-	)
-	(junction
 		(at 180.34 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5158,16 +5152,16 @@
 		(uuid "67ff7dcf-fe0b-4531-ac47-348c821ffe11")
 	)
 	(junction
+		(at 228.6 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68f59c10-3c84-4725-9eb3-b35a0262c0f6")
+	)
+	(junction
 		(at 236.22 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82272bb6-7055-47b8-adda-439d58808866")
-	)
-	(junction
-		(at 228.6 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8354789e-65c6-4a91-8f51-afa6c3c28e07")
 	)
 	(junction
 		(at 162.56 81.28)
@@ -5284,6 +5278,12 @@
 		(uuid "f715a87c-3bc9-45ca-ac42-c4b93b2efbab")
 	)
 	(junction
+		(at 255.27 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f887dd21-d0ee-4261-a960-487419196720")
+	)
+	(junction
 		(at 86.36 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5381,6 +5381,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 152.4) (xy 228.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00edf6a8-5bb0-4fe2-b2ff-f78504192962")
+	)
+	(wire
+		(pts
 			(xy 85.09 163.83) (xy 78.74 163.83)
 		)
 		(stroke
@@ -5451,13 +5461,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 162.56) (xy 231.14 162.56)
+			(xy 228.6 142.24) (xy 250.19 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ca1b5e0-6981-4fec-8e76-3b7600590ec9")
+		(uuid "0bbeb4a5-648a-40d3-9333-4c7a4a921199")
 	)
 	(wire
 		(pts
@@ -5561,6 +5571,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 151.13) (xy 245.11 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179ba8d2-2379-495a-892c-7ae1a2a28ab1")
+	)
+	(wire
+		(pts
 			(xy 210.82 120.65) (xy 210.82 109.22)
 		)
 		(stroke
@@ -5568,6 +5588,26 @@
 			(type default)
 		)
 		(uuid "1825fabe-3dc5-40f7-b5ad-54d6977dfed2")
+	)
+	(wire
+		(pts
+			(xy 252.73 153.67) (xy 252.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1847eadd-d839-4a39-97de-0576868a91d2")
+	)
+	(wire
+		(pts
+			(xy 210.82 149.86) (xy 210.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2eca25-52e1-4c75-b65f-d7c247f56337")
 	)
 	(wire
 		(pts
@@ -5621,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 158.75) (xy 255.27 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "255f3e32-6ab0-432c-b7bc-015cc8a2b8d0")
-	)
-	(wire
-		(pts
 			(xy 99.06 167.64) (xy 99.06 163.83)
 		)
 		(stroke
@@ -5658,16 +5688,6 @@
 			(type default)
 		)
 		(uuid "27c97472-5f4c-4fc9-ad58-b33acad74d99")
-	)
-	(wire
-		(pts
-			(xy 255.27 158.75) (xy 233.68 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "292a7b20-dfdb-44ed-b6e6-d9451a8baf16")
 	)
 	(wire
 		(pts
@@ -5728,6 +5748,16 @@
 			(type default)
 		)
 		(uuid "308754e3-7364-4aa9-8fb9-5769f2e7d75a")
+	)
+	(wire
+		(pts
+			(xy 255.27 143.51) (xy 233.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3128985e-202b-4cbd-af72-70c3c84e2692")
 	)
 	(wire
 		(pts
@@ -5891,6 +5921,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 151.13) (xy 250.19 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4768c1d2-4ad6-4609-8811-45920da4d3eb")
+	)
+	(wire
+		(pts
 			(xy 35.56 69.85) (xy 53.34 69.85)
 		)
 		(stroke
@@ -5918,6 +5958,16 @@
 			(type default)
 		)
 		(uuid "49e8e808-9b4d-40ea-950c-55d4dffbb10f")
+	)
+	(wire
+		(pts
+			(xy 233.68 143.51) (xy 233.68 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2c9f33-40be-45f0-9b34-4f24c06d58ea")
 	)
 	(wire
 		(pts
@@ -6011,16 +6061,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 162.56) (xy 252.73 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b86cb0-4eec-4744-88eb-a1aa898e2973")
-	)
-	(wire
-		(pts
 			(xy 154.94 193.04) (xy 161.29 193.04)
 		)
 		(stroke
@@ -6058,16 +6098,6 @@
 			(type default)
 		)
 		(uuid "5bfad590-eec8-4b2f-b745-7bfbc36675f3")
-	)
-	(wire
-		(pts
-			(xy 200.66 149.86) (xy 228.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3579f2-fdd1-4001-b324-d65a9e51d040")
 	)
 	(wire
 		(pts
@@ -6178,16 +6208,6 @@
 			(type default)
 		)
 		(uuid "6eb24d82-594d-4ae9-84cf-1353ddb7974c")
-	)
-	(wire
-		(pts
-			(xy 228.6 148.59) (xy 228.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709988c5-ecbe-45f8-988a-d68fa98a5860")
 	)
 	(wire
 		(pts
@@ -6391,13 +6411,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 158.75) (xy 233.68 148.59)
+			(xy 247.65 153.67) (xy 252.73 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8bd38fdd-07d7-4bbf-ac30-fb58138993f1")
+		(uuid "8b607238-527f-4b13-b27b-1a6c08645a77")
 	)
 	(wire
 		(pts
@@ -6491,6 +6511,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 152.4) (xy 226.06 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d438c8-d726-4f87-828f-caeec7c8041c")
+	)
+	(wire
+		(pts
 			(xy 187.96 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -6521,6 +6551,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 143.51) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7cc6a4-5bbf-4afd-aa9c-d469ed2427aa")
+	)
+	(wire
+		(pts
 			(xy 185.42 73.66) (xy 185.42 81.28)
 		)
 		(stroke
@@ -6538,16 +6578,6 @@
 			(type default)
 		)
 		(uuid "9bd08325-97d2-467c-9bda-63ba713b177e")
-	)
-	(wire
-		(pts
-			(xy 252.73 148.59) (xy 252.73 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0a424b-10f6-4516-9daa-a74432874e8f")
 	)
 	(wire
 		(pts
@@ -6608,16 +6638,6 @@
 			(type default)
 		)
 		(uuid "a1c0b755-b8f8-4b14-9d70-e5d705d86102")
-	)
-	(wire
-		(pts
-			(xy 255.27 148.59) (xy 255.27 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a209a587-435a-4e7d-a2f4-da13a3e36889")
 	)
 	(wire
 		(pts
@@ -6721,6 +6741,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 142.24) (xy 250.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af920201-a712-4819-83ad-9141450c108f")
+	)
+	(wire
+		(pts
 			(xy 180.34 107.95) (xy 181.61 107.95)
 		)
 		(stroke
@@ -6738,6 +6768,16 @@
 			(type default)
 		)
 		(uuid "b6a4ab99-61b8-45bf-a61c-f3fc4eb844b6")
+	)
+	(wire
+		(pts
+			(xy 228.6 139.7) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b708832c-4a45-43f7-99e2-1832dd0996e5")
 	)
 	(wire
 		(pts
@@ -6778,16 +6818,6 @@
 			(type default)
 		)
 		(uuid "bc590877-356a-4928-b3e0-debab5f0f052")
-	)
-	(wire
-		(pts
-			(xy 231.14 162.56) (xy 231.14 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf442c62-c953-4fe3-8198-7f63554c6cb0")
 	)
 	(wire
 		(pts
@@ -6841,13 +6871,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 149.86) (xy 250.19 148.59)
+			(xy 247.65 151.13) (xy 247.65 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c470bd7d-3420-47f7-8690-5311d06e4db7")
+		(uuid "c33c1739-79cd-436a-8858-4fd92ecdb68b")
 	)
 	(wire
 		(pts
@@ -6898,6 +6928,16 @@
 			(type default)
 		)
 		(uuid "ca6d2906-d488-4ef6-a79f-afd5c228601c")
+	)
+	(wire
+		(pts
+			(xy 200.66 149.86) (xy 210.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae4fb2e-7d3e-44dc-9f2a-57bf07cedfc8")
 	)
 	(wire
 		(pts
@@ -6961,6 +7001,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 152.4) (xy 223.52 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bd4d32-98e5-4f27-87cd-200de0c34656")
+	)
+	(wire
+		(pts
 			(xy 231.14 73.66) (xy 231.14 81.28)
 		)
 		(stroke
@@ -7001,6 +7051,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 154.94) (xy 231.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db871bf1-1d9b-4ed3-bdad-38975af8b51f")
+	)
+	(wire
+		(pts
 			(xy 240.03 33.02) (xy 240.03 45.72)
 		)
 		(stroke
@@ -7008,6 +7068,16 @@
 			(type default)
 		)
 		(uuid "dd8a9c4e-da5d-4750-9eda-6f9c40dac4ea")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 228.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00391d3-9b7f-4338-9738-942d7a0c8c3a")
 	)
 	(wire
 		(pts
@@ -7038,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "e70b0643-20c0-4265-b742-2ec80b3eeccb")
+	)
+	(wire
+		(pts
+			(xy 255.27 139.7) (xy 255.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e771a8f6-3122-46ab-a6b9-214a7f4b04cf")
 	)
 	(wire
 		(pts
@@ -7091,6 +7171,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 154.94) (xy 231.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee66d919-fee3-49c5-a1ee-98b8e774f810")
+	)
+	(wire
+		(pts
+			(xy 276.86 158.75) (xy 276.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33915be-f814-414b-b0d3-ca859d3fddca")
+	)
+	(wire
+		(pts
 			(xy 232.41 120.65) (xy 254 120.65)
 		)
 		(stroke
@@ -7128,16 +7228,6 @@
 			(type default)
 		)
 		(uuid "f835adda-2cd5-444f-84fd-a1510696612a")
-	)
-	(wire
-		(pts
-			(xy 228.6 149.86) (xy 250.19 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f966de87-caf7-428c-aa32-e6f619f8113e")
 	)
 	(wire
 		(pts
@@ -7671,7 +7761,7 @@
 	)
 	(global_label "GPIO 6"
 		(shape input)
-		(at 247.65 162.56 180)
+		(at 245.11 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7681,7 +7771,7 @@
 		)
 		(uuid "64e0bff2-5961-4f6a-8add-2172a8769d8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.0124 162.56 0)
+			(at 245.11 164.5776 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8029,6 +8119,30 @@
 			)
 		)
 	)
+	(global_label "IO 23"
+		(shape input)
+		(at 250.19 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9da3d540-40eb-4568-90f8-d12bef4961a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.19 164.5171 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "GPIO 7"
 		(shape input)
 		(at 152.4 190.5 180)
@@ -8138,6 +8252,30 @@
 		(uuid "ab463a06-e545-493d-9a69-13edd6b58d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.2272 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IO 4"
+		(shape input)
+		(at 228.6 157.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ace2616f-fef2-49fd-85f2-c0f736358ddd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 164.5776 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8271,7 +8409,7 @@
 	)
 	(global_label "GPIO 17"
 		(shape input)
-		(at 228.6 162.56 180)
+		(at 223.52 154.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8281,7 +8419,7 @@
 		)
 		(uuid "de8eeff1-3717-4e34-864c-53393bf70f42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.7529 162.56 0)
+			(at 223.52 165.7871 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,6 +10567,89 @@
 			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 226.06 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f8183ce-4144-4837-8c22-b34fbdf5effb")
+		(property "Reference" "J29"
+			(at 218.694 150.114 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 231.14 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 226.06 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 226.06 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36e4a6ee-4e20-4cd1-934c-fd0d19a9f863")
+		)
+		(pin "3"
+			(uuid "c340441c-6c1b-4e98-9ff5-6f7db45bc3eb")
+		)
+		(pin "2"
+			(uuid "d0362db0-ff10-4ded-9989-a075a9d398d9")
+		)
+		(instances
+			(project "VertiFarm_PCB"
+				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -12714,7 +12935,7 @@
 	)
 	(symbol
 		(lib_id "B3B-XH-A:B3B-XH-A-M-LFSN")
-		(at 252.73 140.97 90)
+		(at 252.73 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12725,7 +12946,7 @@
 		(fields_autoplaced yes)
 		(uuid "8968d7dd-871b-4e81-b353-021b9b03eda5")
 		(property "Reference" "J27"
-			(at 259.08 139.6999 90)
+			(at 259.08 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12736,7 +12957,7 @@
 			)
 		)
 		(property "Value" "DHT22"
-			(at 259.08 142.2399 90)
+			(at 259.08 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12747,7 +12968,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12759,7 +12980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12770,7 +12991,7 @@
 			)
 		)
 		(property "Description" "Conn Shrouded Header (4 Sides) HDR 3 POS 2.5mm Solder ST Top Entry Thru-Hole Box"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +13003,7 @@
 			)
 		)
 		(property "MF" "JST"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12794,7 +13015,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12806,7 +13027,7 @@
 			)
 		)
 		(property "CREATOR" "KARTHIK"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12818,7 +13039,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12830,7 +13051,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,7 +13063,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B3B-XH-A-M-LFSN/JST/view-part/?ref=eda"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +13075,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12866,7 +13087,7 @@
 			)
 		)
 		(property "PARTREV" "7/4/21"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12878,7 +13099,7 @@
 			)
 		)
 		(property "DUPLICATE" "B3B-XH-A (LF)(SN)-,-B3B-XH-A-BK(LF)(SN)-,-B3B-XH-A-E(LF)(SN)-,-B3B-XH-A-Y(LF)(SN)(P)-,-B3B-XH-A (LF)(SN)(P)-,-B3B-XH-A-R(LF)(SN)(P)-,-B3B-XH-A-R(LF)(SN)-,-B3B-XH-A-E(LF)(SN)(P)-,-B3B-XH-A-LFSN-,-B3B-XH-A(LF)(SN-,-B3B-XH-A(LF)(SN)-,-B3B-XH-A-Y(LF)(SN)-,-B3B-XH-A-M-LFSN"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12890,7 +13111,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B3B-XH-A-M-LFSN/JST/view-part/?ref=snap"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12902,7 +13123,7 @@
 			)
 		)
 		(property "MP" "B3B-XH-A-M-LFSN"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +13135,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +13147,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 252.73 140.97 0)
+			(at 252.73 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13525,7 +13746,7 @@
 	)
 	(symbol
 		(lib_id "B3B-XH-A:B3B-XH-A-M-LFSN")
-		(at 231.14 140.97 90)
+		(at 231.14 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13536,7 +13757,7 @@
 		(fields_autoplaced yes)
 		(uuid "998187fa-87db-4c54-850b-f2653b9841b2")
 		(property "Reference" "J26"
-			(at 237.49 139.6999 90)
+			(at 237.49 130.8099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13547,7 +13768,7 @@
 			)
 		)
 		(property "Value" "DHT22"
-			(at 237.49 142.2399 90)
+			(at 237.49 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13558,7 +13779,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13570,7 +13791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13581,7 +13802,7 @@
 			)
 		)
 		(property "Description" "Conn Shrouded Header (4 Sides) HDR 3 POS 2.5mm Solder ST Top Entry Thru-Hole Box"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13593,7 +13814,7 @@
 			)
 		)
 		(property "MF" "JST"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13605,7 +13826,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "7.00 mm"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13617,7 +13838,7 @@
 			)
 		)
 		(property "CREATOR" "KARTHIK"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13850,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13641,7 +13862,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13653,7 +13874,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/B3B-XH-A-M-LFSN/JST/view-part/?ref=eda"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13665,7 +13886,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13677,7 +13898,7 @@
 			)
 		)
 		(property "PARTREV" "7/4/21"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13689,7 +13910,7 @@
 			)
 		)
 		(property "DUPLICATE" "B3B-XH-A (LF)(SN)-,-B3B-XH-A-BK(LF)(SN)-,-B3B-XH-A-E(LF)(SN)-,-B3B-XH-A-Y(LF)(SN)(P)-,-B3B-XH-A (LF)(SN)(P)-,-B3B-XH-A-R(LF)(SN)(P)-,-B3B-XH-A-R(LF)(SN)-,-B3B-XH-A-E(LF)(SN)(P)-,-B3B-XH-A-LFSN-,-B3B-XH-A(LF)(SN-,-B3B-XH-A(LF)(SN)-,-B3B-XH-A-Y(LF)(SN)-,-B3B-XH-A-M-LFSN"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13701,7 +13922,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B3B-XH-A-M-LFSN/JST/view-part/?ref=snap"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +13934,7 @@
 			)
 		)
 		(property "MP" "B3B-XH-A-M-LFSN"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13725,7 +13946,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13737,7 +13958,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 231.14 140.97 0)
+			(at 231.14 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,6 +14756,89 @@
 			(project "VertiFarm_PCB"
 				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
 					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 247.65 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba893ca1-fee7-4c04-8791-d611d3e369a1")
+		(property "Reference" "J30"
+			(at 240.284 148.844 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 252.73 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 247.65 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "712ca814-5f43-458f-bf91-ee7325603c99")
+		)
+		(pin "3"
+			(uuid "d358e6cb-df33-4ce2-b915-9116b06c7ec6")
+		)
+		(pin "2"
+			(uuid "228e50e4-afb3-4fab-b44a-4ae715a332ab")
+		)
+		(instances
+			(project "VertiFarm_PCB"
+				(path "/af4f5558-672d-42f1-bcb2-d73fc89abcc2"
+					(reference "J30")
 					(unit 1)
 				)
 			)

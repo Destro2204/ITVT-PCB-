@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-08-20T22:22:51+01:00"
+    "CreationDate": "2026-11-10T10:44:34+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "VertiFarm_PCB",
       "GUID": "56657274-6946-4617-926d-5f5043422e6b",
-      "Revision": "rev?"
+      "Revision": "3.1"
     },
     "Size": {
-      "X": 210.2,
+      "X": 216.2,
       "Y": 107.2
     },
     "LayerNumber": 4,
@@ -24,16 +24,16 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
       "MinLineWidth": 0.2
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
+      "TrackToTrack": 0.1,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
